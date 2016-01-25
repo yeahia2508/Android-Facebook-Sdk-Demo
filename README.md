@@ -1,4 +1,6 @@
-# Android-Facebook-Sdk-Demo
+# Android-Facebook-Sdk-Demo 
+
+###This repository shows very basic implementation of facebook inside a android application.###
 
 ![Publish Photo](https://github.com/yeahia2508/Android-Facebook-Sdk-Demo/blob/master/screenshot/Screenshot_2016-01-26-01-19-22.png)
 
