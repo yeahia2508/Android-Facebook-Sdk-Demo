@@ -10,4 +10,25 @@
 
 <b>1.Publish Feed</b>
 
-<b>1.Publish Feed</b>
+<b>2.Publish Image</b>
+
+<b>3.Publish Video</b>
+
+<b>4.Get and Comments</b>
+
+<b>5.Add and Get Likes (user id)</b>
+
+<b>6.User Info</b>
+
+###Library Used:###
+
+<b>compile 'com.sromku:simple-fb:4.1.1'</b>
+
+It's a wrappter on facebook sdk. Very easy to implement.
+
+###Contributor:###
+<b>Yeahia Mahammad Arif </b>
+
+<i>Email</i> : <b> yeahia.arif@gmail.com</b>
+
+
