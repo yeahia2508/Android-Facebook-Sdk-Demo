@@ -1,0 +1,58 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:focusableInTouchMode="true"
+    tools:context=".Fragment.SendFeedFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btGetPosts"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/flat_selector"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:text="Get Posts"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/result_frame" >
+
+            <TextView
+                android:id="@+id/tvPostLog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="5dp"
+                android:textSize="14sp"
+                tools:ignore="SmallSp" />
+
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btLoadMore"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/flat_selector"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:visibility="gone"
+            android:text="Load More"/>
+
+    </LinearLayout>
+
+</ScrollView>
